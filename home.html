@@ -38,6 +38,54 @@
 		</div>
 	</section>
 
+	<section id="filter">
+		<style>
+			#filter{
+				padding: 40px 20px;
+				background-color: rgb(224, 159, 159);
+				position: relative;
+			}
+			#filter .col-6{
+				width: 49%;
+				float: left;
+			}
+			#filter select{
+				margin-left: 20%;
+				font-size: 16px;
+				padding: 10px;
+				width: 300px;
+				border: none;
+				border-radius: 5px;
+				height: 70px;
+			}
+			#filter select:focus{
+				border: none;
+				border-bottom: 1px solid red;
+			}
+		</style>
+		<div class="row">
+			<div class="col-6">
+				<select name="range">
+					<option> Select Price Range </option>
+					<option value="50"> 0 - 50 </option>
+					<option value="100"> 0 - 100 </option>
+					<option value="200"> 0 - 200 </option>
+					<option value="500"> 0 - 500 </option>
+					<option value="1000"> 0 - 1000 </option>
+					<option value="1000+"> 1000 + </option>
+				</select>
+			</div>
+			<div class="col-6">
+				<select name="category">
+
+					<option value="Restaurants"> Restaurants </option>
+					<option value="Home made"> Home made </option>
+					
+				</select>
+			</div>
+		</div>
+	</section>
+
 	<section id ="main1">
 		<br>
 		<div id="container" class="heading">Our menu</div>
